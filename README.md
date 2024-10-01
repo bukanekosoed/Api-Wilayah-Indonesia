@@ -68,6 +68,8 @@ Berikut adalah beberapa endpoint utama yang tersedia:
 - ```/kecamatan?kode_kabupaten={kode_kabupaten}``` : Mendapatkan daftar kecamatan berdasarkan kode kabupaten.
 - ```/desa?kode_kecamatan={kode_kecamatan}``` : Mendapatkan daftar desa berdasarkan kode kecamatan.
 - ```/kodepos?kode_desa={kode_desa}``` : Mendapatkan kode pos untuk desa tertentu.
+
+
 Setiap endpoint mengembalikan data dalam format JSON.
 
 ## Deploy

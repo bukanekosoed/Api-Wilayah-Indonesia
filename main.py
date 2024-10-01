@@ -10,7 +10,7 @@ templates = Jinja2Templates(directory="templates")  # Directory for HTML templat
 # Function to read CSV files and convert them into lists
 def baca_csv_provinsi():
     try:
-        df = pd.read_csv('D:/FastApi/data/provinsi.csv', sep=';')
+        df = pd.read_csv('data/provinsi.csv', sep=';')
         print(df.head())  # Debugging: print the first few rows
         return df.to_dict(orient='records')
     except Exception as e:
@@ -19,7 +19,7 @@ def baca_csv_provinsi():
 
 def baca_csv_kabupaten():
     try:
-        df = pd.read_csv('D:/FastApi/data/kabupaten.csv', sep=';')
+        df = pd.read_csv('data/kabupaten.csv', sep=';')
         return df.to_dict(orient='records')
     except Exception as e:
         print(f"Error saat membaca CSV kabupaten: {e}")
@@ -27,7 +27,7 @@ def baca_csv_kabupaten():
 
 def baca_csv_kecamatan():
     try:
-        df = pd.read_csv('D:/FastApi/data/kecamatan.csv',sep=';')
+        df = pd.read_csv('data/kecamatan.csv',sep=';')
         return df.to_dict(orient='records')
     except Exception as e:
         print(f"Error saat membaca CSV kecamatan: {e}")
@@ -35,7 +35,7 @@ def baca_csv_kecamatan():
 
 def baca_csv_desa():
     try:
-        df = pd.read_csv('D:/FastApi/data/desa.csv',sep=';')
+        df = pd.read_csv('data/desa.csv',sep=';')
         return df.to_dict(orient='records')
     except Exception as e:
         print(f"Error saat membaca CSV desa: {e}")
@@ -43,7 +43,7 @@ def baca_csv_desa():
 
 def baca_csv_kodepos():
     try:
-        df = pd.read_csv('D:/FastApi/data/kodepos.csv', sep=';')
+        df = pd.read_csv('data/kodepos.csv', sep=';')
         return df.to_dict(orient='records')
     except Exception as e:
         print(f"Error saat membaca CSV kode pos: {e}")

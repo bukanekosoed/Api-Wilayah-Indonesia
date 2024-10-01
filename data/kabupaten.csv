@@ -1,0 +1,515 @@
+kode_kabupaten;nama_kabupaten;kode_provinsi
+1101;Aceh Selatan;11
+1102;Aceh Tenggara;11
+1103;Aceh Timur;11
+1104;Aceh Tengah;11
+1105;Aceh Barat;11
+1106;Aceh Besar;11
+1107;Pidie;11
+1108;Aceh Utara;11
+1109;Simeulue;11
+1110;Aceh Singkil;11
+1111;Bireuen;11
+1112;Aceh Barat Daya;11
+1113;Gayo Lues;11
+1114;Aceh Jaya;11
+1115;Nagan Raya;11
+1116;Aceh Tamiang;11
+1117;Bener Meriah;11
+1118;Pidie Jaya;11
+1171;Kota Banda Aceh;11
+1172;Kota Sabang;11
+1173;Kota Lhokseumawe;11
+1174;Kota Langsa;11
+1175;Kota Subulussalam;11
+1201;Tapanuli Tengah;12
+1202;Tapanuli Utara;12
+1203;Tapanuli Selatan;12
+1204;Nias;12
+1205;Langkat;12
+1206;Karo;12
+1207;Deli Serdang;12
+1208;Simalungun;12
+1209;Asahan;12
+1210;Labuhanbatu;12
+1211;Dairi;12
+1212;Toba;12
+1213;Mandailing Natal;12
+1214;Nias Selatan;12
+1215;Pakpak Bharat;12
+1216;Humbang Hasundutan;12
+1217;Samosir;12
+1218;Serdang Bedagai;12
+1219;Batu Bara;12
+1220;Padang Lawas Utara;12
+1221;Padang Lawas;12
+1222;Labuhanbatu Selatan;12
+1223;Labuhanbatu Utara;12
+1224;Nias Utara;12
+1225;Nias Barat;12
+1271;Kota Medan;12
+1272;Kota Pematangsiantar;12
+1273;Kota Sibolga;12
+1274;Kota Tanjung Balai;12
+1275;Kota Binjai;12
+1276;Kota Tebing Tinggi;12
+1277;Kota Padangsidimpuan;12
+1278;Kota Gunungsitoli;12
+1301;Pesisir Selatan;13
+1302;Solok;13
+1303;Sijunjung;13
+1304;Tanah Datar;13
+1305;Padang Pariaman;13
+1306;Agam;13
+1307;Lima Puluh Kota;13
+1308;Pasaman;13
+1309;Kepulauan Mentawai;13
+1310;Dharmasraya;13
+1311;Solok Selatan;13
+1312;Pasaman Barat;13
+1371;Kota Padang;13
+1372;Kota Solok;13
+1373;Kota Sawahlunto;13
+1374;Kota Padang Panjang;13
+1375;Kota Bukittinggi;13
+1376;Kota Payakumbuh;13
+1377;Kota Pariaman;13
+1401;Kampar;14
+1402;Indragiri Hulu;14
+1403;Bengkalis;14
+1404;Indragiri Hilir;14
+1405;Pelalawan;14
+1406;Rokan Hulu;14
+1407;Rokan Hilir;14
+1408;Siak;14
+1409;Kuantan Singingi;14
+1410;Kepulauan Meranti;14
+1471;Kota Pekanbaru;14
+1472;Kota Dumai;14
+1501;Kerinci;15
+1502;Merangin;15
+1503;Sarolangun;15
+1504;Batanghari;15
+1505;Muaro Jambi;15
+1506;Tanjung Jabung Barat;15
+1507;Tanjung Jabung Timur;15
+1508;Bungo;15
+1509;Tebo;15
+1571;Kota Jambi;15
+1572;Kota Sungai Penuh;15
+1601;Ogan Komering Ulu;16
+1602;Ogan Komering Ilir;16
+1603;Muara Enim;16
+1604;Lahat;16
+1605;Musi Rawas;16
+1606;Musi Banyuasin;16
+1607;Banyuasin;16
+1608;Ogan Komering Ulu Timur;16
+1609;Ogan Komering Ulu Selatan;16
+1610;Ogan Ilir;16
+1611;Empat Lawang;16
+1612;Penukal Abab Lematang Ilir;16
+1613;Musi Rawas Utara;16
+1671;Kota Palembang;16
+1672;Kota Pagar Alam;16
+1673;Kota Lubuk Linggau;16
+1674;Kota Prabumulih;16
+1701;Bengkulu Selatan;17
+1702;Rejang Lebong;17
+1703;Bengkulu Utara;17
+1704;Kaur;17
+1705;Seluma;17
+1706;Muko Muko;17
+1707;Lebong;17
+1708;Kepahiang;17
+1709;Bengkulu Tengah;17
+1771;Kota Bengkulu;17
+1801;Lampung Selatan;18
+1802;Lampung Tengah;18
+1803;Lampung Utara;18
+1804;Lampung Barat;18
+1805;Tulang Bawang;18
+1806;Tanggamus;18
+1807;Lampung Timur;18
+1808;Way Kanan;18
+1809;Pesawaran;18
+1810;Pringsewu;18
+1811;Mesuji;18
+1812;Tulang Bawang Barat;18
+1813;Pesisir Barat;18
+1871;Kota Bandar Lampung;18
+1872;Kota Metro;18
+1901;Bangka;19
+1902;Belitung;19
+1903;Bangka Selatan;19
+1904;Bangka Tengah;19
+1905;Bangka Barat;19
+1906;Belitung Timur;19
+1971;Kota Pangkal Pinang;19
+2101;Bintan;21
+2102;Karimun;21
+2103;Natuna;21
+2104;Lingga;21
+2105;Kepulauan Anambas;21
+2171;Kota Batam;21
+2172;Kota Tanjung Pinang;21
+3101;Kepulauan Seribu;31
+3171;Kota Jakarta Pusat;31
+3172;Kota Jakarta Utara;31
+3173;Kota Jakarta Barat;31
+3174;Kota Jakarta Selatan;31
+3175;Kota Jakarta Timur;31
+3201;Bogor;32
+3202;Sukabumi;32
+3203;Cianjur;32
+3204;Bandung;32
+3205;Garut;32
+3206;Tasikmalaya;32
+3207;Ciamis;32
+3208;Kuningan;32
+3209;Cirebon;32
+3210;Majalengka;32
+3211;Sumedang;32
+3212;Indramayu;32
+3213;Subang;32
+3214;Purwakarta;32
+3215;Karawang;32
+3216;Bekasi;32
+3217;Bandung Barat;32
+3218;Pangandaran;32
+3271;Kota Bogor;32
+3272;Kota Sukabumi;32
+3273;Kota Bandung;32
+3274;Kota Cirebon;32
+3275;Kota Bekasi;32
+3276;Kota Depok;32
+3277;Kota Cimahi;32
+3278;Kota Tasikmalaya;32
+3279;Kota Banjar;32
+3301;Cilacap;33
+3302;Banyumas;33
+3303;Purbalingga;33
+3304;Banjarnegara;33
+3305;Kebumen;33
+3306;Purworejo;33
+3307;Wonosobo;33
+3308;Magelang;33
+3309;Boyolali;33
+3310;Klaten;33
+3311;Sukoharjo;33
+3312;Wonogiri;33
+3313;Karanganyar;33
+3314;Sragen;33
+3315;Grobogan;33
+3316;Blora;33
+3317;Rembang;33
+3318;Pati;33
+3319;Kudus;33
+3320;Jepara;33
+3321;Demak;33
+3322;Semarang;33
+3323;Temanggung;33
+3324;Kendal;33
+3325;Batang;33
+3326;Pekalongan;33
+3327;Pemalang;33
+3328;Tegal;33
+3329;Brebes;33
+3371;Kota Magelang;33
+3372;Kota Surakarta;33
+3373;Kota Salatiga;33
+3374;Kota Semarang;33
+3375;Kota Pekalongan;33
+3376;Kota Tegal;33
+3401;Kulon Progo;34
+3402;Bantul;34
+3403;Gunungkidul;34
+3404;Sleman;34
+3471;Kota Yogyakarta;34
+3501;Pacitan;35
+3502;Ponorogo;35
+3503;Trenggalek;35
+3504;Tulungagung;35
+3505;Blitar;35
+3506;Kediri;35
+3507;Malang;35
+3508;Lumajang;35
+3509;Jember;35
+3510;Banyuwangi;35
+3511;Bondowoso;35
+3512;Situbondo;35
+3513;Probolinggo;35
+3514;Pasuruan;35
+3515;Sidoarjo;35
+3516;Mojokerto;35
+3517;Jombang;35
+3518;Nganjuk;35
+3519;Madiun;35
+3520;Magetan;35
+3521;Ngawi;35
+3522;Bojonegoro;35
+3523;Tuban;35
+3524;Lamongan;35
+3525;Gresik;35
+3526;Bangkalan;35
+3527;Sampang;35
+3528;Pamekasan;35
+3529;Sumenep;35
+3571;Kota Kediri;35
+3572;Kota Blitar;35
+3573;Kota Malang;35
+3574;Kota Probolinggo;35
+3575;Kota Pasuruan;35
+3576;Kota Mojokerto;35
+3577;Kota Madiun;35
+3578;Kota Surabaya;35
+3579;Kota Batu;35
+3601;Pandeglang;36
+3602;Lebak;36
+3603;Tangerang;36
+3604;Serang;36
+3671;Kota Tangerang;36
+3672;Kota Cilegon;36
+3673;Kota Serang;36
+3674;Kota Tangerang Selatan;36
+5101;Jembrana;51
+5102;Tabanan;51
+5103;Badung;51
+5104;Gianyar;51
+5105;Klungkung;51
+5106;Bangli;51
+5107;Karangasem;51
+5108;Buleleng;51
+5171;Kota Denpasar;51
+5201;Lombok Barat;52
+5202;Lombok Tengah;52
+5203;Lombok Timur;52
+5204;Sumbawa;52
+5205;Dompu;52
+5206;Bima;52
+5207;Sumbawa Barat;52
+5208;Lombok Utara;52
+5271;Kota Mataram;52
+5272;Kota Bima;52
+5301;Kupang;53
+5302;Timor Tengah Selatan;53
+5303;Timor Tengah Utara;53
+5304;Belu;53
+5305;Alor;53
+5306;Flores Timur;53
+5307;Sikka;53
+5308;Ende;53
+5309;Ngada;53
+5310;Manggarai;53
+5311;Sumba Timur;53
+5312;Sumba Barat;53
+5313;Lembata;53
+5314;Rote Ndao;53
+5315;Manggarai Barat;53
+5316;Nagekeo;53
+5317;Sumba Tengah;53
+5318;Sumba Barat Daya;53
+5319;Manggarai Timur;53
+5320;Sabu Raijua;53
+5321;Malaka;53
+5371;Kota Kupang;53
+6101;Sambas;61
+6102;Mempawah;61
+6103;Sanggau;61
+6104;Ketapang;61
+6105;Sintang;61
+6106;Kapuas Hulu;61
+6107;Bengkayang;61
+6108;Landak;61
+6109;Sekadau;61
+6110;Melawi;61
+6111;Kayong Utara;61
+6112;Kubu Raya;61
+6171;Kota Pontianak;61
+6172;Kota Singkawang;61
+6201;Kotawaringin Barat;62
+6202;Kotawaringin Timur;62
+6203;Kapuas;62
+6204;Barito Selatan;62
+6205;Barito Utara;62
+6206;Katingan;62
+6207;Seruyan;62
+6208;Sukamara;62
+6209;Lamandau;62
+6210;Gunung Mas;62
+6211;Pulang Pisau;62
+6212;Murung Raya;62
+6213;Barito Timur;62
+6271;Kota Palangkaraya;62
+6301;Tanah Laut;63
+6302;Kotabaru;63
+6303;Banjar;63
+6304;Barito Kuala;63
+6305;Tapin;63
+6306;Hulu Sungai Selatan;63
+6307;Hulu Sungai Tengah;63
+6308;Hulu Sungai Utara;63
+6309;Tabalong;63
+6310;Tanah Bumbu;63
+6311;Balangan;63
+6371;Kota Banjarmasin;63
+6372;Kota Banjarbaru;63
+6401;Paser;64
+6402;Kutai Kartanegara;64
+6403;Berau;64
+6407;Kutai Barat;64
+6408;Kutai Timur;64
+6409;Penajam Paser Utara;64
+6411;Mahakam Ulu;64
+6471;Kota Balikpapan;64
+6472;Kota Samarinda;64
+6474;Kota Bontang;64
+6501;Bulungan;65
+6502;Malinau;65
+6503;Nunukan;65
+6504;Tana Tidung;65
+6571;Kota Tarakan;65
+7101;Bolaang Mongondow;71
+7102;Minahasa;71
+7103;Kepulauan Sangihe;71
+7104;Kepulauan Talaud;71
+7105;Minahasa Selatan;71
+7106;Minahasa Utara;71
+7107;Minahasa Tenggara;71
+7108;Bolaang Mongondow Utara;71
+7109;Kepulauan Siau Tagulandang Biaro (Sitaro);71
+7110;Bolaang Mongondow Timur;71
+7111;Bolaang Mongondow Selatan;71
+7171;Kota Manado;71
+7172;Kota Bitung;71
+7173;Kota Tomohon;71
+7174;Kota Kotamobagu;71
+7201;Banggai;72
+7202;Poso;72
+7203;Donggala;72
+7204;Toli Toli;72
+7205;Buol;72
+7206;Morowali;72
+7207;Banggai Kepulauan;72
+7208;Parigi Moutong;72
+7209;Tojo Una Una;72
+7210;Sigi;72
+7211;Banggai Laut;72
+7212;Morowali Utara;72
+7271;Kota Palu;72
+7301;Kepulauan Selayar;73
+7302;Bulukumba;73
+7303;Bantaeng;73
+7304;Jeneponto;73
+7305;Takalar;73
+7306;Gowa;73
+7307;Sinjai;73
+7308;Bone;73
+7309;Maros;73
+7310;Pangkajene Kepulauan;73
+7311;Barru;73
+7312;Soppeng;73
+7313;Wajo;73
+7314;Sidenreng Rappang;73
+7315;Pinrang;73
+7316;Enrekang;73
+7317;Luwu;73
+7318;Tana Toraja;73
+7322;Luwu Utara;73
+7324;Luwu Timur;73
+7326;Toraja Utara;73
+7371;Kota Makassar;73
+7372;Kota Pare Pare;73
+7373;Kota Palopo;73
+7401;Kolaka;74
+7402;Konawe;74
+7403;Muna;74
+7404;Buton;74
+7405;Konawe Selatan;74
+7406;Bombana;74
+7407;Wakatobi;74
+7408;Kolaka Utara;74
+7409;Konawe Utara;74
+7410;Buton Utara;74
+7411;Kolaka Timur;74
+7412;Konawe Kepulauan;74
+7413;Muna Barat;74
+7414;Buton Tengah;74
+7415;Buton Selatan;74
+7471;Kota Kendari;74
+7472;Kota Bau Bau;74
+7501;Gorontalo;75
+7502;Boalemo;75
+7503;Bone Bolango;75
+7504;Pahuwato;75
+7505;Gorontalo Utara;75
+7571;Kota Gorontalo;75
+7601;Pasangkayu (Mamuju Utara);76
+7602;Mamuju;76
+7603;Mamasa;76
+7604;Polewali Mandar;76
+7605;Majene;76
+7606;Mamuju Tengah;76
+8101;Maluku Tengah;81
+8102;Maluku Tenggara;81
+8103;Kepulauan Tanimbar (Maluku Tenggara Barat);81
+8104;Buru;81
+8105;Seram Bagian Timur;81
+8106;Seram Bagian Barat;81
+8107;Kepulauan Aru;81
+8108;Maluku Barat Daya;81
+8109;Buru Selatan;81
+8171;Kota Ambon;81
+8172;Kota Tual;81
+8201;Halmahera Barat;82
+8202;Halmahera Tengah;82
+8203;Halmahera Utara;82
+8204;Halmahera Selatan;82
+8205;Kepulauan Sula;82
+8206;Halmahera Timur;82
+8207;Pulau Morotai;82
+8208;Pulau Taliabu;82
+8271;Kota Ternate;82
+8272;Kota Tidore Kepulauan;82
+9103;Jayapura;91
+9105;Kepulauan Yapen;91
+9106;Biak Numfor;91
+9110;Sarmi;91
+9111;Keerom;91
+9115;Waropen;91
+9119;Supiori;91
+9120;Mamberamo Raya;91
+9171;Kota Jayapura;91
+9202;Manokwari;92
+9203;Fak Fak;92
+9206;Teluk Bintuni;92
+9207;Teluk Wondama;92
+9208;Kaimana;92
+9211;Manokwari Selatan;92
+9212;Pegunungan Arfak;92
+9301;Merauke;93
+9302;Boven Digoel;93
+9303;Mappi;93
+9304;Asmat;93
+9401;Nabire;94
+9402;Puncak Jaya;94
+9403;Paniai;94
+9404;Mimika;94
+9405;Puncak;94
+9406;Dogiyai;94
+9407;Intan Jaya;94
+9408;Deiyai;94
+9501;Jayawijaya;95
+9502;Pegunungan Bintang;95
+9503;Yahukimo;95
+9504;Tolikara;95
+9505;Mamberamo Tengah;95
+9506;Yalimo;95
+9507;Lanny Jaya;95
+9508;Nduga;95
+9601;Sorong;96
+9604;Sorong Selatan;96
+9605;Raja Ampat;96
+9609;Tambrauw;96
+9610;Maybrat;96
+9671;Kota Sorong;96

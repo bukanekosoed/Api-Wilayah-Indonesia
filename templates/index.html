@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Lokasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Function to fetch kabupaten based on the selected provinsi
+        async function fetchKabupaten() {
+            const kodeProvinsi = document.getElementById("provinsi").value;
+            const response = await fetch(`/kabupaten?kode_provinsi=${kodeProvinsi}`);
+            const kabupaten = await response.json();
+            const kabupatenSelect = document.getElementById("kabupaten");
+
+            // Reset kabupaten, kecamatan, and desa dropdowns
+            kabupatenSelect.innerHTML = "<option value=''>Pilih Kabupaten</option>";
+            document.getElementById("kecamatan").innerHTML = "<option value=''>Pilih Kecamatan</option>";
+            document.getElementById("desa").innerHTML = "<option value=''>Pilih Desa</option>";
+            document.getElementById("kode_pos").value = ""; // Reset kode pos
+
+            kabupaten.forEach(kab => {
+                kabupatenSelect.innerHTML += `<option value="${kab.kode_kabupaten}">${kab.nama_kabupaten}</option>`;
+            });
+        }
+
+        // Function to fetch kecamatan based on the selected kabupaten
+        async function fetchKecamatan() {
+            const kodeKabupaten = document.getElementById("kabupaten").value;
+            const response = await fetch(`/kecamatan?kode_kabupaten=${kodeKabupaten}`);
+            const kecamatan = await response.json();
+            const kecamatanSelect = document.getElementById("kecamatan");
+
+            kecamatanSelect.innerHTML = "<option value=''>Pilih Kecamatan</option>";
+            document.getElementById("desa").innerHTML = "<option value=''>Pilih Desa</option>";
+            document.getElementById("kode_pos").value = ""; // Reset kode pos
+
+            kecamatan.forEach(kec => {
+                kecamatanSelect.innerHTML += `<option value="${kec.kode_kecamatan}">${kec.nama_kecamatan}</option>`;
+            });
+        }
+
+        // Function to fetch desa based on the selected kecamatan
+        async function fetchDesa() {
+            const kodeKecamatan = document.getElementById("kecamatan").value;
+            const response = await fetch(`/desa?kode_kecamatan=${kodeKecamatan}`);
+            const desa = await response.json();
+            const desaSelect = document.getElementById("desa");
+
+            desaSelect.innerHTML = "<option value=''>Pilih Desa</option>";
+            document.getElementById("kode_pos").value = ""; // Reset kode pos
+
+            desa.forEach(d => {
+                desaSelect.innerHTML += `<option value="${d.kode_desa}">${d.nama_desa}</option>`;
+            });
+        }
+
+        // Function to fetch kodepos based on the selected desa
+        async function fetchKodepos() {
+                const kodeDesa = document.getElementById("desa").value;
+                if (kodeDesa) {
+                    console.log(`Memanggil API kode pos dengan kode desa: ${kodeDesa}`);  // Debugging
+                    const response = await fetch(`/kodepos?kode_desa=${kodeDesa}`);
+                    const kodeposData = await response.json();
+                    const kodePosInput = document.getElementById("kode_pos");
+
+                    // Assuming the API returns an array of results, you can set the first result.
+                    if (kodeposData.length > 0) {
+                        kodePosInput.value = kodeposData[0].kode_pos;
+                    } else {
+                        kodePosInput.value = "Kode pos tidak ditemukan";
+                    }
+                } else {
+                    document.getElementById("kode_pos").value = ""; // Reset kode pos
+                }
+            }
+
+    </script>
+</head>
+
+<body class="bg-gray-100 py-10">
+    <div class="max-w-xl mx-auto p-8 bg-white rounded-lg shadow-lg">
+        <h1 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Pilih Lokasi</h1>
+
+        <div class="mb-4">
+            <label for="provinsi" class="block text-gray-700 font-medium mb-2">Provinsi:</label>
+            <select id="provinsi" onchange="fetchKabupaten()"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <option value="">Pilih Provinsi</option>
+                {% for prov in provinsi_data %}
+                <option value="{{ prov.kode_provinsi }}">{{ prov.nama_provinsi }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="kabupaten" class="block text-gray-700 font-medium mb-2">Kabupaten:</label>
+            <select id="kabupaten" onchange="fetchKecamatan()"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <option value="">Pilih Kabupaten</option>
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="kecamatan" class="block text-gray-700 font-medium mb-2">Kecamatan:</label>
+            <select id="kecamatan" onchange="fetchDesa()"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <option value="">Pilih Kecamatan</option>
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="desa" class="block text-gray-700 font-medium mb-2">Desa:</label>
+            <select id="desa" onchange="fetchKodepos()"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <option value="">Pilih Desa</option>
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="kode_pos" class="block text-gray-700 font-medium mb-2">Kode Pos:</label>
+            <input type="text" id="kode_pos" readonly
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+    </div>
+</body>
+
+</html>

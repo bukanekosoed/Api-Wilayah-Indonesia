@@ -60,7 +60,7 @@ Proyek ini menggunakan beberapa file CSV yang menyimpan data wilayah Indonesia:
 - ```kodepos.csv```: Data kode pos.
 Pastikan semua file ini diletakkan pada direktori yang tepat (misalnya ```data/```).
 
-Endpoint API
+## Endpoint API
 Berikut adalah beberapa endpoint utama yang tersedia:
 
 - ```/provinsi``` : Mendapatkan semua provinsi atau filter berdasarkan kode atau nama.

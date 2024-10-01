@@ -30,7 +30,7 @@ Untuk menjalankan proyek ini secara lokal:
 2. Masuk ke direktori proyek:
    
    ```bash
-   cd reponame
+   cd Api-Wilayah-Indonesia
    
 4. Buat environment virtual dan aktifkan:
    
@@ -74,7 +74,7 @@ Setiap endpoint mengembalikan data dalam format JSON.
 
 ## Deploy
 Proyek ini dideploy menggunakan Vercel. Untuk melakukan deploy proyek Anda sendiri:
-1. Install Vercel CLI.
+1. Install [Vercel CLI](https://vercel.com/docs/cli).
 2. Pastikan struktur proyek Anda seperti berikut:
    
    ```bash

@@ -11,7 +11,6 @@ templates = Jinja2Templates(directory="templates")  # Directory for HTML templat
 def baca_csv_provinsi():
     try:
         df = pd.read_csv('data/provinsi.csv', sep=';')
-        print(df.head())  # Debugging: print the first few rows
         return df.to_dict(orient='records')
     except Exception as e:
         print(f"Error saat membaca CSV provinsi: {e}")
